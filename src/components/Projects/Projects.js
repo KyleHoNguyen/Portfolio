@@ -8,6 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import BoardGamers from "../../Assets/Projects/BoardGamers.png"
+import LeetCodeJourney from "../../Assets/Projects/LeetCodeJourney.png"
+import UFDirectoryApp from "../../Assets/Projects/UFDirectoryApp.png"
+import CodeSparks from "../../Assets/Projects/CodeSparks.png"
 
 function Projects() {
   return (
@@ -23,70 +27,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={CodeSparks}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Code-Sparks"
+              description="Code-Sparks is an application to teach K-12 students how to code. My responsibility was to design and implement the Admin Role for the organization. This meant handling admin user authentication, admin main page, navigation bar, and all users of the application."
+              tools="React.js, Node.js, Bootstrap 5, Strapi, Docker, Git, and VS Code"
+              ghLink="https://github.com/Group4F/Sapphire-Project12-4f"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={UFDirectoryApp}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="UF Directory App"
+              description="The UF Directory App is a dynamic web application designed to showcase over 100 buildings in Gainesville using a university database."
+              tools="HTML, CSS, JavaScript, Node.js with Express, and VS Code"
+              ghLink="https://github.com/UFWebApps2-0/bootcamp-3-introduction-to-frontend-development-with-react-KyleHoNguyen"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={BoardGamers}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Board-Gamers"
+              description="Board-Gamers is a recommendation system for over 1,000 board games, utilizing advanced sorting algorithms to personalize suggestions. The project, developed by a team of three, enhances user interaction through Dear ImGui and organizes a large dataset using Object-Oriented Programming for efficient data management."
+              tools="C++, Git, Dear ImGui, and VS Code"
+              ghLink="https://github.com/KyleHoNguyen/Board-Gamers"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={LeetCodeJourney}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="LeetCode Tracker"
+              description="LeetCode Tracker is a simple compilation of Python Scripts that accurately tracks LeetCode Progress based on manually written markdown files. This repository is great for those keeping notes of their progress!"
+              tools="Python, VS Code, and Git"
+              ghLink="https://github.com/KyleHoNguyen/Leetcode-Notes"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+
+          
         </Row>
       </Container>
     </Container>

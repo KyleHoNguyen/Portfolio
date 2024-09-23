@@ -1,6 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiFillMail,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -8,33 +13,35 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Looks like someone's interested :D
+            <br/>
+            <br/>
+            As you may know, my name is <span className="purple">Kyle Ho-Nguyen </span>
+            and I'm from <span className="purple"> Saint Petersburg, Florida.</span> {" "}
+            I am a computer science major graduating from the <span className="purple"> University of Florida</span> in <span className="purple"> December  2025.</span> {" "}
+            Currently, I am on the search for another internship before I graduate! At my last internship, I had the wonderful opportunity
+            to work at Publix Technology, where I learned a lot about Microsoft Azure and Automation. However, throughout
+            my college career, I've learned a lot about full-stack development, specifically in <span className="purple"> C++, Python, and Javascript.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from programming, I love to 
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+               Play beach volleyball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+               Experiment with food
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+                and, of course, play video games
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ textAlign: "justify" }}>
+            If you want to know more, <span className="purple">reach out!</span> <br /> I'd love to talk :D
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
         </blockquote>
       </Card.Body>
     </Card>
