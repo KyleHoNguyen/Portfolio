@@ -43,7 +43,7 @@ function NavBar() {
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <Navbar.Brand href="/#/" className="d-flex">
+        <Navbar.Brand href="https://kylehonguyen.github.io/Portfolio/#/" className="d-flex">
           <h1>Kyle</h1>
         </Navbar.Brand>
         <Navbar.Toggle
