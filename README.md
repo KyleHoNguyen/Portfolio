@@ -3,7 +3,7 @@
   <a href="https://kylehonguyen.github.io/Portfolio" target="_blank">kyle.honguyen.github.io/Portfolio</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
