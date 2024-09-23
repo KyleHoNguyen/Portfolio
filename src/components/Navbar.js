@@ -43,7 +43,7 @@ function NavBar() {
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <Navbar.Brand href="/portfolio" className="d-flex">
+        <Navbar.Brand href="/" className="d-flex">
           <h1>Kyle</h1>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -59,7 +59,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio"
+                to="/"
                 id="home"
                 style={{
                   backgroundColor: activeTab === "home" ? "blueviolet" : "",
