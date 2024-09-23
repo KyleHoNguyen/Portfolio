@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d4d97c0a.css",
+    "main.js": "/Portfolio/static/js/main.cf4d8cea.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/green-removebg-preview.png": "/Portfolio/static/media/green-removebg-preview.81e0261871d50442eece.png",
+    "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/Portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/Portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/Ho_NguyenKyle_Resume.pdf": "/Portfolio/static/media/Ho_NguyenKyle_Resume.e1f66205d3116b94cee8.pdf",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/LeetCodeJourney.png": "/Portfolio/static/media/LeetCodeJourney.8e41c8c7d8ff5555a487.png",
+    "static/media/BoardGamers.png": "/Portfolio/static/media/BoardGamers.457743a3066fd6cb19b2.png",
+    "static/media/UFDirectoryApp.png": "/Portfolio/static/media/UFDirectoryApp.dc82a0182363c89fced5.png",
+    "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/Portfolio/static/media/Soumyajit_Behera-BIT_MESRA.f31c00c0623443fc6fa3.pdf",
+    "static/media/CodeSparks.png": "/Portfolio/static/media/CodeSparks.207c6179da695f83ed88.png",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.d4d97c0a.css.map": "/Portfolio/static/css/main.d4d97c0a.css.map",
+    "main.cf4d8cea.js.map": "/Portfolio/static/js/main.cf4d8cea.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4d97c0a.css",
+    "static/js/main.cf4d8cea.js"
+  ]
+}
