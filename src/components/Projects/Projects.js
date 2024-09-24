@@ -44,7 +44,7 @@ function Projects() {
               title="UF Directory App"
               description="The UF Directory App is a dynamic web application designed to showcase over 100 buildings in Gainesville using a university database."
               tools="HTML, CSS, JavaScript, Node.js with Express, and VS Code"
-              ghLink="https://github.com/UFWebApps2-0/bootcamp-3-introduction-to-frontend-development-with-react-KyleHoNguyen"
+              ghLink="https://github.com/KyleHoNguyen/UFDirectoryApp"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
