@@ -19,8 +19,8 @@ function AboutCard() {
             As you may know, my name is <span className="purple">Kyle Ho-Nguyen </span>
             and I'm from <span className="purple"> Saint Petersburg, Florida.</span> {" "}
             I am a computer science major graduating from the <span className="purple"> University of Florida</span> in <span className="purple"> December  2025.</span> {" "}
-            Currently, I am on the search for another internship before I graduate! At my last internship, I had the wonderful opportunity
-            to work at Publix Technology, where I learned a lot about Microsoft Azure and Automation. However, throughout
+            Currently, I am on the search for full-time Software Engineer or Cloud Engineer roles! My recent work includes leading a 7-member Agile team 
+            to develop a Windows testing suite for RTX, and optimizing Azure DevOps pipelines during my internship at Publix Technology. However, throughout
             my college career, I've learned a lot about full-stack development, specifically in <span className="purple"> C++, Python, and Javascript.</span>
             <br />
             <br />
